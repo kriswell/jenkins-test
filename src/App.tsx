@@ -13,13 +13,7 @@ const App: React.FC = () => {
     return () => clearInterval(timer);
   }, [time]);
 
-  return (
-    <div>
-      兄弟盟，还有1
-      <span style={{ fontSize: "28px", fontWeight: "bold" }}>{time}</span>
-      秒我们就可以操作啦!!!
-    </div>
-  );
+  return <div>jenkins test</div>;
 };
 
 export default App;
