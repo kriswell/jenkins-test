@@ -15,7 +15,7 @@ const App: React.FC = () => {
 
   return (
     <div>
-      兄弟盟，还有
+      兄弟盟，还有1
       <span style={{ fontSize: "28px", fontWeight: "bold" }}>{time}</span>
       秒我们就可以操作啦!!!
     </div>
