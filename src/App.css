@@ -53,4 +53,9 @@ html,body {
   height: 100%;
   font-weight: bold;
   color:skyblue;
+  font-size: 1rem;
+}
+
+html {
+  font-size: 100px;
 }
