@@ -8,11 +8,15 @@ const App: React.FC = () => {
   const [time, setTime] = useState(restTime);
 
   useEffect(() => {
+    let timer: any;
     if (time > 0) {
-      const timer = setInterval(() => {
+      timer = setInterval(() => {
         setTime(time - 1);
       }, 1000);
       return () => clearInterval(timer);
+    } else {
+      setTime(0);
+      clearInterval(timer);
     }
   }, [time]);
 
