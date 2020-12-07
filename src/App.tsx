@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const restTime = Math.floor(
-  (new Date("2020-12-04T17:30").getTime() - new Date().getTime()) / 1000
+  (new Date("2020-12-11T17:30").getTime() - new Date().getTime()) / 1000
 );
 const App: React.FC = () => {
   const [time, setTime] = useState(restTime);
