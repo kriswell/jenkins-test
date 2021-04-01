@@ -24,7 +24,7 @@ const App: React.FC = () => {
     const a = (window.screen.width / 1920) * 100;
     document.documentElement.style.fontSize = a + "px";
   }, []);
-  return <div className="test">操作倒计时：{time} s</div>;
+  return <div className="test">测试：{time} s</div>;
 };
 
 export default App;
